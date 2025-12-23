@@ -12,4 +12,7 @@ n=int(input("quante password? "))
 lunghezza=int(input("lunghezza: "))
 
 for i in range(n):
+
     print(genera_password(lunghezza))
+    
+input("\nPremi INVIO per uscire...")
