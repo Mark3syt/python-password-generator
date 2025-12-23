@@ -8,11 +8,11 @@ def genera_password(lunghezza):
         password+=random.choice(caratteri)
     return password
 
-n=int(input("quante password? "))
-lunghezza=int(input("lunghezza: "))
+n=int(input("how many passwords? "))
+lunghezza=int(input("length: "))
 
 for i in range(n):
 
     print(genera_password(lunghezza))
     
-input("\nPremi INVIO per uscire...")
+input("\nPress ENTER to exit")
